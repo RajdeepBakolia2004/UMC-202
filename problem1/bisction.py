@@ -26,10 +26,10 @@ if __name__ == "__main__":
     res1,i1 = bisection(0,1,20)
     if res1: 
         print(f"The function have a solution in [0,1] and it is founded after {i1} iteration and is equal to {res1}")
-        res2,i2 = bisection(1,3.2,20)
-        if res2:
-            print(f"The function have a solution in [0,1] and it is founded after {i2} iteration and is equal to {res2}")
+    res2,i2 = bisection(1,3.2,20)
+    if res2:
+        print(f"The function have a solution in [0,1] and it is founded after {i2} iteration and is equal to {res2}")
     res3,i3 = bisection(3.2,4,20)
     if res3:
         print(f"The function have a solution in [0,1] and it is founded after {i3} iteration and is equal to {res3}")
-    print(f(3))
+   
